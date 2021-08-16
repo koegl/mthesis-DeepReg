@@ -3,17 +3,18 @@ import os
 # import nibabel
 import tensorflow as tf
 import deepreg
-# import deepreg.model.layer as layer
+import deepreg.model.layer as layer
 # import deepreg.model.loss.image as image_loss
 # from deepreg.model.loss.image import ssd
 # import deepreg.model.loss.deform as deform_loss
-# import deepreg.model.layer_util as layer_util
+import deepreg.model.layer_util as layer_util
 import matplotlib.pyplot as plt
 import h5py
 # import numpy as np
+#FILE_PATH = "C:\\Users\\fryde\\Documents\\University a\\Master\\Master's thesis\\code\\deepreg\\" \
+ #           "MICCAI_2020_reg_tutorial\\demos\\classical_ct_headandneck_affine\\dataset\\demo.h5"
 
-FILE_PATH = "C:\\Users\\fryde\\Documents\\University a\\Master\\Master's thesis\\code\\deepreg\\" \
-            "MICCAI_2020_reg_tutorial\\demos\\classical_ct_headandneck_affine\\dataset\\demo.h5"
+FILE_PATH = "/home/fryderyk/deepreg/MICCAI_2020_reg_tutorial/demos/classical_ct_headandneck_affine/dataset"
 
 plt.rcParams["figure.figsize"] = (100, 100)
 
