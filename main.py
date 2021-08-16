@@ -14,7 +14,7 @@ import h5py
 #FILE_PATH = "C:\\Users\\fryde\\Documents\\University a\\Master\\Master's thesis\\code\\deepreg\\" \
  #           "MICCAI_2020_reg_tutorial\\demos\\classical_ct_headandneck_affine\\dataset\\demo.h5"
 
-FILE_PATH = "/home/fryderyk/deepreg/MICCAI_2020_reg_tutorial/demos/classical_ct_headandneck_affine/dataset"
+FILE_PATH = "/home/fryderyk/deepreg/MICCAI_2020_reg_tutorial/demos/classical_ct_headandneck_affine/dataset/demo.h5"
 
 plt.rcParams["figure.figsize"] = (100, 100)
 
